@@ -1,0 +1,20 @@
+{
+  "main.js": {
+    "file": "assets/swag-basic-example-theme-BOyZ_zhn.js",
+    "name": "swag-basic-example-theme",
+    "src": "main.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "module/sw-cms/component/sw-cms-sidebar/index.js"
+    ],
+    "css": [
+      "assets/swag-basic-example-theme-D0lUjhgt.css"
+    ]
+  },
+  "module/sw-cms/component/sw-cms-sidebar/index.js": {
+    "file": "assets/index-CLWuJBca.js",
+    "name": "index",
+    "src": "module/sw-cms/component/sw-cms-sidebar/index.js",
+    "isDynamicEntry": true
+  }
+}

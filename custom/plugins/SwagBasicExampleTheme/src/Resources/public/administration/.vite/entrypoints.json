@@ -1,0 +1,27 @@
+{
+  "base": "/bundles/swagbasicexampletheme/administration/",
+  "entryPoints": {
+    "swag-basic-example-theme": {
+      "css": [
+        "/bundles/swagbasicexampletheme/administration/assets/swag-basic-example-theme-D0lUjhgt.css"
+      ],
+      "dynamic": [
+        "/bundles/swagbasicexampletheme/administration/assets/index-CLWuJBca.js"
+      ],
+      "js": [
+        "/bundles/swagbasicexampletheme/administration/assets/swag-basic-example-theme-BOyZ_zhn.js"
+      ],
+      "legacy": false,
+      "preload": []
+    }
+  },
+  "legacy": false,
+  "metadatas": {},
+  "version": [
+    "7.1.0",
+    7,
+    1,
+    0
+  ],
+  "viteServer": null
+}
