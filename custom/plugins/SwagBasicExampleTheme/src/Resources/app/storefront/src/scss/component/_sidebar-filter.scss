@@ -11,16 +11,22 @@
 }
 
 .filter-panel-items-container {
+    .filter-panel-item-toggle {
+        border: unset;
+        cursor: default;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .filter-boolean {
+        border: unset;
+    }
+
     & > * {
         margin-right: 0;
         width: 100%;
-
-        button {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
 
         .filter-panel-item-dropdown {
             width: 100%;
