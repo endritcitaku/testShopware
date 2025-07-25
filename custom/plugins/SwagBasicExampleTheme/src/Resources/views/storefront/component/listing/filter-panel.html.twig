@@ -1,0 +1,11 @@
+{% sw_extends '@Storefront/storefront/component/listing/filter-panel.html.twig' %}
+
+{% block component_filter_panel_items_container %}
+    {{ parent() }}
+{% endblock %}
+
+{% block component_filter_panel_item_manufacturer %}
+    {% if app.request.pathInfo != "/search" %}
+        {{ parent() }}
+    {% endif %}
+{% endblock %}

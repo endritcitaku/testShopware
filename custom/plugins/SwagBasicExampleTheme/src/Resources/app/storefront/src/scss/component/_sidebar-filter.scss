@@ -1,0 +1,35 @@
+.cms-element-sidebar-filter {
+    .filter-panel-wrapper-toggle {
+        display: flex;
+        width: max-content;
+        margin-left: auto;
+    }
+
+    .filter-panel-wrapper {
+        display: none;
+    }
+}
+
+.filter-panel-items-container {
+    .filter-panel-item-toggle {
+        border: unset;
+        cursor: default;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .filter-boolean {
+        border: unset;
+    }
+
+    & > * {
+        margin-right: 0;
+        width: 100%;
+
+        .filter-panel-item-dropdown {
+            width: 100%;
+        }
+    }
+}
