@@ -9,7 +9,8 @@
         "config": {
           "label": {
             "styleType": "Style Type",
-            "customGridType": "Custom Grid"
+            "customGridType": "Custom Grid",
+            "layoutTypeCustom": "Custom Box"
           }
         }
       }

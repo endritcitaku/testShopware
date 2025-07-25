@@ -1,6 +1,6 @@
 {
   "main.js": {
-    "file": "assets/swag-basic-example-theme-DmWMCY79.js",
+    "file": "assets/swag-basic-example-theme-CCey389t.js",
     "name": "swag-basic-example-theme",
     "src": "main.js",
     "isEntry": true,
@@ -19,7 +19,7 @@
     "isDynamicEntry": true
   },
   "module/sw-cms/elements/product-listing/config/index.js": {
-    "file": "assets/index-ClD1oGzc.js",
+    "file": "assets/index-CxGJ3uNY.js",
     "name": "index",
     "src": "module/sw-cms/elements/product-listing/config/index.js",
     "isDynamicEntry": true,
