@@ -5,6 +5,22 @@
         "label": "Custom Banner Slider",
         "show-btn": "Show Button"
       }
+    },
+    "blocks": {
+      "custom-banner-slider": {
+        "label": "Custom Banner Slider"
+      }
+    }
+  },
+  "apps": {
+    "sw-cms": {
+      "detail": {
+        "label": {
+          "blockCategory": {
+            "custom-option": "Custom option"
+          }
+        }
+      }
     }
   }
 }

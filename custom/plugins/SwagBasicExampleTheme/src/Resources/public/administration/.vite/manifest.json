@@ -1,6 +1,6 @@
 {
   "main.js": {
-    "file": "assets/swag-basic-example-theme-BOyZ_zhn.js",
+    "file": "assets/swag-basic-example-theme-Bm2EPHdt.js",
     "name": "swag-basic-example-theme",
     "src": "main.js",
     "isEntry": true,
@@ -8,7 +8,7 @@
       "module/sw-cms/component/sw-cms-sidebar/index.js"
     ],
     "css": [
-      "assets/swag-basic-example-theme-D0lUjhgt.css"
+      "assets/swag-basic-example-theme-CYpfusZx.css"
     ]
   },
   "module/sw-cms/component/sw-cms-sidebar/index.js": {
