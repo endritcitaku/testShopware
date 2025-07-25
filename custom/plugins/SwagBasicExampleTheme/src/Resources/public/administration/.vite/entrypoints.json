@@ -3,13 +3,13 @@
   "entryPoints": {
     "swag-basic-example-theme": {
       "css": [
-        "/bundles/swagbasicexampletheme/administration/assets/swag-basic-example-theme-D0lUjhgt.css"
+        "/bundles/swagbasicexampletheme/administration/assets/swag-basic-example-theme-CYpfusZx.css"
       ],
       "dynamic": [
         "/bundles/swagbasicexampletheme/administration/assets/index-CLWuJBca.js"
       ],
       "js": [
-        "/bundles/swagbasicexampletheme/administration/assets/swag-basic-example-theme-BOyZ_zhn.js"
+        "/bundles/swagbasicexampletheme/administration/assets/swag-basic-example-theme-Bm2EPHdt.js"
       ],
       "legacy": false,
       "preload": []
