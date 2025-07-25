@@ -4,6 +4,15 @@
       "custom-banner-slider": {
         "label": "Custom Banner Slider",
         "show-btn": "Show Button"
+      },
+      "productBox": {
+        "config": {
+          "label": {
+            "styleType": "Style Type",
+            "customGridType": "Custom Grid",
+            "layoutTypeCustom": "Custom Box"
+          }
+        }
       }
     },
     "blocks": {

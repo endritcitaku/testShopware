@@ -1,0 +1,51 @@
+.ec-custom-grid {
+    .js-listing-wrapper-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto auto auto;
+        gap: 30px;
+        grid-template-areas:
+      "p1 p2 p3 p4"
+      "p5 p5 p6 p7"
+      "p5 p5 p8 p9";
+        padding: 20px;
+
+        @include media-breakpoint-down(lg) {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas:
+              "p1 p2 p3"
+              "p4 p5 p6"
+              "p7 p8 p9";
+        }
+
+        @include media-breakpoint-down(md) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas:
+              "p1 p2"
+              "p3 p4"
+              "p5 p5"
+              "p6 p7"
+              "p8 p9";
+        }
+    }
+
+    .cms-listing-col-custom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        color: white;
+        font-size: 2rem;
+        height: 100%;
+
+        &:nth-child(1) { grid-area: p1; }
+        &:nth-child(2) { grid-area: p2; }
+        &:nth-child(3) { grid-area: p3; }
+        &:nth-child(4) { grid-area: p4; }
+        &:nth-child(5) { grid-area: p5; }
+        &:nth-child(6) { grid-area: p6; }
+        &:nth-child(7) { grid-area: p7; }
+        &:nth-child(8) { grid-area: p8; }
+        &:nth-child(9) { grid-area: p9; }
+    }
+}

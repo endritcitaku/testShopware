@@ -1,0 +1,9 @@
+{% block sw_cms_element_product_listing_config_layout_select %}
+    <mt-select
+            v-model="element.config.styleType.value"
+            :label="$tc('sw-cms.elements.productBox.config.label.styleType')"
+            :options="styleOptions"
+    />
+
+    {% parent %}
+{% endblock %}
