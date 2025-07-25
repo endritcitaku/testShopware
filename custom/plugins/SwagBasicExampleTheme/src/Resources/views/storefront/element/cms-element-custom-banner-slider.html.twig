@@ -1,0 +1,54 @@
+{% block element_custom_banner_slider %}
+    {% set config = element.fieldConfig.elements %}
+    {% set slides = config.slides.value %}
+
+    <div class="cms-element-{{ element.type }}">
+        {% set baseSliderOptions = {
+            slider: {
+                controls: false,
+                nav: false,
+                mouseDrag: true,
+                autoplay: true,
+                autoplayButtonOutput: false,
+                autoplayTimeout: 3000,
+                speed: 500,
+                gutter: 0
+            }
+        } %}
+        {% block element_custom_banner_slider_base_slider %}
+        <div
+                class="base-slider custom-banner-slider{% if sliderConfig.navigationArrows.value == "outside" %} has-nav-outside{% endif %}{% if sliderConfig.navigationDots.value == "outside" %} has-dots-outside{% endif %}"
+                data-base-slider="true"
+                data-base-slider-options='{{ baseSliderOptions|json_encode }}'
+                role="region"
+                aria-label="{{ 'component.cms.imageGallery.ariaLabel'|trans({ '%total%': element.data.sliderItems|length })|sw_sanitize }}"
+                tabindex="0"
+        >
+
+            {% block element_custom_banner_slider_inner %}
+                {% block element_custom_banner_slider_skip_slider %}
+                    {% sw_include '@Storefront/storefront/component/skip-target.html.twig' with {
+                        targetId: blockId,
+                        snippet: 'component.cms.imageGallery.skipImageGallery',
+                    } %}
+                {% endblock %}
+
+                <div class="custom-banner-slider-container"
+                     data-base-slider-container="true">
+                    {% for slide in slides %}
+                        <div class="custom-banner-slider-item-container" style="background-image: url('{{ slide.image.value.url }}')">
+                            <h1>{{ slide.title.value }}</h1>
+                            <p>{{ slide.text.value }}</p>
+                            {% if slide.activeBtn.value and slide.link.value and slide.nameBtn.value %}
+                                <a href="{{ slide.link.value }}">
+                                    {{ slide.nameBtn.value }}
+                                </a>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endblock %}
+        </div>
+        {% endblock %}
+    </div>
+{% endblock %}

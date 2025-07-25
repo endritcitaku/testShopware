@@ -1,0 +1,10 @@
+{
+  "sw-cms": {
+    "elements": {
+      "custom-banner-slider": {
+        "label": "Custom Banner Slider",
+        "show-btn": "Show Button"
+      }
+    }
+  }
+}

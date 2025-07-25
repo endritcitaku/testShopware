@@ -1,0 +1,68 @@
+.cms-element-custom-banner-slider {
+    .tns-inner {
+        overflow: hidden;
+        border-radius: 30px;
+    }
+}
+
+.custom-banner-slider {
+    overflow: hidden;
+    border-radius: 30px;
+
+    &-item-container {
+        position: relative;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 50px;
+        align-content: center;
+
+        &::before {
+           content: '';
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: rgba($color-black, 0.2);
+        }
+
+        h1 {
+            position: relative;
+            z-index: 2;
+            margin-bottom: 10px;
+            font-family: $sw-font-family-base;
+            color: $color-white;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 55px;
+        }
+
+        p {
+            position: relative;
+            z-index: 2;
+            margin-bottom: 30px;
+            font-family: $sw-font-family-base;
+            color: $color-white;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 26px;
+        }
+
+        a {
+            text-decoration: unset;
+            position: relative;
+            z-index: 2;
+            font-family: $sw-font-family-base;
+            color: $color-black;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 26px;
+            background-color: $color-white;
+            padding: 12px 30px;
+            border-radius: 10px;
+        }
+    }
+}
