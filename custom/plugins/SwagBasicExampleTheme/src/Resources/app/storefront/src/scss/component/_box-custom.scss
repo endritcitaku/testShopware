@@ -1,0 +1,28 @@
+.box-custom {
+    border: unset;
+    width: 100%;
+
+    .card-body {
+        padding: 0;
+    }
+
+    .product-image-wrapper {
+        height: 300px;
+    }
+
+    .product-image {
+        max-height: 300px;
+    }
+}
+
+.ec-custom-grid .cms-listing-col-custom:nth-child(5) {
+    .box-custom {
+        .product-image-wrapper {
+            height: 600px;
+        }
+
+        .product-image {
+            max-height: 600px;
+        }
+    }
+}

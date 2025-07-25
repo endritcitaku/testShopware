@@ -17,3 +17,13 @@
         styleType: styleType
     } %}
 {% endblock %}
+
+{% block component_product_box_image_thumbnail %}
+    {% set sizes = sizes|merge({'xl': '292.5px'}) %}
+
+    {% sw_thumbnails 'product-image-thumbnails' with {
+        media: cover,
+        sizes: sizes,
+        attributes: attributes
+    } %}
+{% endblock %}
