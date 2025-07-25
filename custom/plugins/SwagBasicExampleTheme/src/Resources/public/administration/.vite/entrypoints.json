@@ -6,10 +6,11 @@
         "/bundles/swagbasicexampletheme/administration/assets/swag-basic-example-theme-CYpfusZx.css"
       ],
       "dynamic": [
-        "/bundles/swagbasicexampletheme/administration/assets/index-CLWuJBca.js"
+        "/bundles/swagbasicexampletheme/administration/assets/index-CLWuJBca.js",
+        "/bundles/swagbasicexampletheme/administration/assets/index-ClD1oGzc.js"
       ],
       "js": [
-        "/bundles/swagbasicexampletheme/administration/assets/swag-basic-example-theme-Bm2EPHdt.js"
+        "/bundles/swagbasicexampletheme/administration/assets/swag-basic-example-theme-DmWMCY79.js"
       ],
       "legacy": false,
       "preload": []
