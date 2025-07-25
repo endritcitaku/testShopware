@@ -1,0 +1,29 @@
+.cms-element-sidebar-filter {
+    .filter-panel-wrapper-toggle {
+        display: flex;
+        width: max-content;
+        margin-left: auto;
+    }
+
+    .filter-panel-wrapper {
+        display: none;
+    }
+}
+
+.filter-panel-items-container {
+    & > * {
+        margin-right: 0;
+        width: 100%;
+
+        button {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .filter-panel-item-dropdown {
+            width: 100%;
+        }
+    }
+}
